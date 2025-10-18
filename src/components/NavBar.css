@@ -1,0 +1,35 @@
+.navbar {
+  width: 100%;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  background: transparent;
+  padding: 18px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-link a {
+  color: #7d3cff; /* purple */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.pages-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.pages-links a {
+  color: #4a2b7f; /* darker purple for links */
+  text-decoration: none;
+}
+.pages-links a:hover {
+  text-decoration: underline;
+}
+.pages-links a{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}

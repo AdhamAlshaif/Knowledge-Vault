@@ -1,0 +1,57 @@
+.create-user-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 24px;
+  background: transparent;
+}
+
+.create-user-form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  padding: 28px;
+  border-radius: 14px;
+  background: #ffffff; /* card white */
+  box-shadow: 0 10px 30px rgba(30,30,30,0.08);
+  border: 1px solid rgba(0,0,0,0.06);
+}
+.create-user-form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.create-user-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #7d3cff; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-form h3 {
+  font-size: 13px;
+  margin: 8px 0 16px 0;
+  color: #6b6b6b; /* muted */
+  font-weight: 500;
+}
+
+.login-form h3 a {
+  font-size: 13px;
+  color: #7d3cff; /* purple */
+  text-decoration: none;
+}
+
+.login-form h3 a:hover{
+  text-decoration: underline;
+}
+
+
+
+
