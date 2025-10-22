@@ -1,42 +1,65 @@
-.main-container {
+.control-group {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  gap: 45px;
+  justify-content: center;
+  margin-top: 20vh;
+  gap: 15px;
 }
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+.button-group button {
+  padding: 8px 16px;
+  border: 1px solid #232424;
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: small;
+}
+.button-group button:hover{
+  background-color: #000000;
+    color:  #fceed1;
+
+  cursor: pointer;
+}
+.button-group span:hover {
+  text-decoration: underline;
+  color:  #fceed1;
 
 
-.main-form .text-area {
-  width: 100%;
-  max-width: 1100px;
-  min-width: 800px;
-  min-height: 70vh;
-  padding: 32px;
-  font-size: 25px;
-}
-
-.save-button {
-    display: flex;
-    justify-content:center;
-    margin-top: 16px;
-}
-.save-button .ant-btn{
-    font-size: 25px;
-    height: 48px;        
-}
-.preview{
-    border: 1px solid #000000;
-    padding: 30px;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    align-items: center;
+} 
+.editor-container {
+  border: 3px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 5vh;
 
 }
-.preview .ant-btn{
-    font-size: 18px;
-    height: 48px;
+.ProseMirror {
+  min-height: 300px;
+  outline: none;
+  line-height: 1;
 }
-
-.preview-box{
-    margin-top: 20px;
-
+.save-button{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5vh;
+}
+.save-button button {
+  padding: 10px 20px;
+  border: 1px solid #232424;
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: medium;
+}
+.save-button button:hover{
+  background-color: #000000;
+    color:  #fceed1;  
+  cursor: pointer;
 }
