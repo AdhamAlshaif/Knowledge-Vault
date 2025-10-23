@@ -1,4 +1,4 @@
-import "./CreateNote.css";
+import "./NotePage.css";
 import { TextStyle } from "@tiptap/extension-text-style";
 import { EditorContent, useEditor, useEditorState } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
@@ -6,7 +6,7 @@ import React from "react";
 
 const extensions = [TextStyle, StarterKit];
 
-function CreateNote({ editor }) {
+function NotePage({ editor }) {
   const editorState = useEditorState({
     editor,
     selector: (ctx) => ({
@@ -154,10 +154,10 @@ const CreateNoteContainer = () => {
     content: `<p>Start writing your note here...</p>`,
   });
 
-  
+
   return (
     <div>
-      <CreateNote editor={editor} />
+      <NotePage editor={editor} />
       <div className="editor-container">
         <EditorContent editor={editor} />
       </div>
