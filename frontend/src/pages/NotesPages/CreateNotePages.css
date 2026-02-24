@@ -1,0 +1,32 @@
+.create-note-page{
+    display: flex;
+    flex-direction: column;
+}
+.create-note-page input{
+  margin: 0;
+  padding: 8px 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+.editor-tools{
+    margin-top:0%;
+    margin-bottom: 10px;
+}
+.editor-container{
+    padding: 2%;
+}
+.save-cancel button {
+  margin: 30px auto;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: solid black 1px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+.save-cancel button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}

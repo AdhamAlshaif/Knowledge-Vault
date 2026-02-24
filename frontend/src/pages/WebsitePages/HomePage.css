@@ -1,0 +1,42 @@
+body {
+  padding: 0%;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 24px;
+  background: transparent;
+}
+.project-name h1 {
+  color: #000000; 
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+.project-description p {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.get-started-button {
+  margin: 30px auto;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: solid black 1px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+.get-started-button:hover {
+  background-color: #000000;
+}
+.get-started-button span:hover{
+  color: white;
+}

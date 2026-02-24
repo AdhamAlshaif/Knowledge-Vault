@@ -1,0 +1,47 @@
+.control-group {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 8vh;
+  gap: 15px;
+}
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+.button-group button {
+  padding: 8px 16px;
+  border: 1px solid #232424;
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: small;
+}
+.button-group button:hover{
+  background-color: #000000;
+    color:  #ffffff;
+
+  cursor: pointer;
+}
+.button-group span:hover {
+  text-decoration: underline;
+  color:  #000000;
+
+
+}
+.editor-container {
+  border: 3px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 5vh;
+
+}
+.ProseMirror {
+  min-height: 300px;
+  outline: none;
+  line-height: 1;
+}

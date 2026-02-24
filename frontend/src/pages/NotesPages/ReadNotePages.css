@@ -1,0 +1,41 @@
+.notes-page{
+  padding: 24px;
+
+}
+.all-notes {
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.note-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+
+}
+.top-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-section button{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: solid black 1px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+.top-section button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+
